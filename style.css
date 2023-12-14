@@ -3,7 +3,7 @@ html {
     margin: 0;
 }
 
-body div{
+body div {
     padding: 5px;
     /* text-align: center; */
 }
@@ -17,19 +17,19 @@ body div{
     padding-left: 100px;
 }
 
-.header div{
+.header div {
     flex: 1;
 }
 
-.top{
+.top {
     display: flex;
     /* background-color: aqua; */
 }
 
-.bottom{
+.bottom {
     display: flex;
     align-items: center
-    /* background-color: aquamarine; */
+        /* background-color: aquamarine; */
 }
 
 .header .top span {
@@ -47,6 +47,31 @@ body div{
 }
 
 /* service section */
+
+.services h2 {
+    text-align: center;
+}
+
+.services img {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    /* padding: 20px; */
+}
+
+.services .item_list {
+    display: flex;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.services .item_list .item {
+    /* background-color: pink; */
+    margin: 4px;
+
+}
 
 
 .footer {
