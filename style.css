@@ -1,0 +1,55 @@
+body,
+html {
+    margin: 0;
+}
+
+body div{
+    padding: 5px;
+    /* text-align: center; */
+}
+
+
+.header {
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.header div{
+    flex: 1;
+}
+
+.top{
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.bottom{
+    display: flex;
+    align-items: center
+    /* background-color: aquamarine; */
+}
+
+.header .top span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .top ul {
+    list-style: none;
+}
+
+.header .top li {
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+/* service section */
+
+
+.footer {
+    background-color: #1F2937;
+    color: aliceblue;
+}
