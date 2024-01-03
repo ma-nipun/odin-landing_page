@@ -66,10 +66,8 @@ html {
     gap: 20px;
 }
 
-.bottom img {
-    width: 50%;
-    box-sizing: border-box;
-    margin-left: 0; /* Push the image to the right */
+.flex-items2 {
+    text-align: right;
 }
 
 .bottom button{
@@ -162,7 +160,7 @@ html {
     border-radius: 2px;
     width: fit-content;
     white-space: nowrap;
-   text-align: center;
+    text-align: center;
 }
 
 .footer {
@@ -180,9 +178,10 @@ html {
     justify-content: space-between;
     align-items: normal;
     align-content: center;
+    gap: 40px;
   }
   
-  .flex-items:nth-child(1) {
+  .flex-items {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -191,11 +190,3 @@ html {
     order: 0;
   }
   
-  .flex-items:nth-child(2) {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-  }
