@@ -66,6 +66,12 @@ html {
     gap: 20px;
 }
 
+.bottom img {
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 0; /* Push the image to the right */
+}
+
 .bottom button{
     font-size: 15px;
     padding: 5px 15px 5px 15px;
@@ -166,3 +172,30 @@ html {
     background-color: #1F2937;
     color: aliceblue;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: center;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
